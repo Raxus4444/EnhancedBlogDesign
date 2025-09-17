@@ -1,0 +1,20 @@
+{% extends './base.html' %}
+
+{% block body %}
+<div class="container">
+    <div class="row row-container">
+        <div class="col-md-2 col-container">
+            <img class="card" src="{{portfolio.image}}">
+        </div>
+        <div class="col-md-6 col-container">
+            <h1 class="title">{{portfolio.name}}</h1>
+            <h2>{{portfolio.description}}</h2>
+        </div>
+        <div class="col-md-4 btn-container col-container">
+            <a href="{% url 'PortfolioDatabase:portfolio' %}" class="btn btn-success">Back</a>
+        </div>
+    </div>
+    
+</div>
+    
+{% endblock %}

@@ -1,0 +1,41 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.nav-container {
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #212529;
+}
+
+.row-container {
+    padding-top: 8px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.col-container {
+    padding: 10px;
+}
+
+#link:hover {
+    transition: 1s;
+    font-weight: bold;
+}
+
+#watermark {
+    color: darkgoldenrod;
+}

@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Caches
+*.sqlite3
+.DS_Store
+.env
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+
+# Media files (user-uploaded files)
+media/
+# stored_images/
+
+# Static files (if collected locally and not served by a CDN)
+# static/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Other temporary files
+*.pot
